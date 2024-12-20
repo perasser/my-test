@@ -1,0 +1,20 @@
+{
+    "name": "perasser/my-test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Perasser\\MyTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Rasser",
+            "email": "peter.rasser@hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "cocur/slugify": "~v4.4"
+    }
+}
